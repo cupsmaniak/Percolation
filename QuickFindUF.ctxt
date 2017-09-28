@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=QuickFindUF(int)
+comment0.text=\r\n\ Initializes\ an\ empty\ union\u2013find\ data\ structure\ with\ {@code\ n}\ sites\r\n\ {@code\ 0}\ through\ {@code\ n-1}.\ Each\ site\ is\ initially\ in\ its\ own\ \r\n\ component.\r\n\r\n\ @param\ \ n\ the\ number\ of\ sites\r\n\ @throws\ IllegalArgumentException\ if\ {@code\ n\ <\ 0}\r\n
+comment1.params=
+comment1.target=int\ count()
+comment1.text=\r\n\ Returns\ the\ number\ of\ components.\r\n\r\n\ @return\ the\ number\ of\ components\ (between\ {@code\ 1}\ and\ {@code\ n})\r\n
+comment2.params=p
+comment2.target=int\ find(int)
+comment2.text=\r\n\ Returns\ the\ component\ identifier\ for\ the\ component\ containing\ site\ {@code\ p}.\r\n\r\n\ @param\ \ p\ the\ integer\ representing\ one\ site\r\n\ @return\ the\ component\ identifier\ for\ the\ component\ containing\ site\ {@code\ p}\r\n\ @throws\ IndexOutOfBoundsException\ unless\ {@code\ 0\ <\=\ p\ <\ n}\r\n
+comment3.params=p
+comment3.target=void\ validate(int)
+comment4.params=p\ q
+comment4.target=boolean\ connected(int,\ int)
+comment4.text=\r\n\ Returns\ true\ if\ the\ the\ two\ sites\ are\ in\ the\ same\ component.\r\n\r\n\ @param\ \ p\ the\ integer\ representing\ one\ site\r\n\ @param\ \ q\ the\ integer\ representing\ the\ other\ site\r\n\ @return\ {@code\ true}\ if\ the\ two\ sites\ {@code\ p}\ and\ {@code\ q}\ are\ in\ the\ same\ component;\r\n\ \ \ \ \ \ \ \ \ {@code\ false}\ otherwise\r\n\ @throws\ IndexOutOfBoundsException\ unless\r\n\ \ \ \ \ \ \ \ \ both\ {@code\ 0\ <\=\ p\ <\ n}\ and\ {@code\ 0\ <\=\ q\ <\ n}\r\n
+comment5.params=p\ q
+comment5.target=void\ union(int,\ int)
+comment5.text=\r\n\ Merges\ the\ component\ containing\ site\ {@code\ p}\ with\ the\ \r\n\ the\ component\ containing\ site\ {@code\ q}.\r\n\r\n\ @param\ \ p\ the\ integer\ representing\ one\ site\r\n\ @param\ \ q\ the\ integer\ representing\ the\ other\ site\r\n\ @throws\ IndexOutOfBoundsException\ unless\r\n\ \ \ \ \ \ \ \ \ both\ {@code\ 0\ <\=\ p\ <\ n}\ and\ {@code\ 0\ <\=\ q\ <\ n}\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ Reads\ in\ a\ sequence\ of\ pairs\ of\ integers\ (between\ 0\ and\ n-1)\ from\ standard\ input,\ \r\n\ where\ each\ integer\ represents\ some\ site;\r\n\ if\ the\ sites\ are\ in\ different\ components,\ merge\ the\ two\ components\r\n\ and\ print\ the\ pair\ to\ standard\ output.\r\n\r\n\ @param\ args\ the\ command-line\ arguments\r\n
+numComments=7

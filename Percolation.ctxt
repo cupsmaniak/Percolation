@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=N
+comment0.target=Percolation(int)
+comment1.params=row\ col
+comment1.target=int\ to1D(int,\ int)
+comment2.params=row\ col
+comment2.target=boolean\ validBounds(int,\ int)
+comment3.params=row\ col
+comment3.target=void\ connected(int,\ int)
+comment4.params=row\ col
+comment4.target=void\ open(int,\ int)
+comment5.params=row\ col
+comment5.target=boolean\ isOpen(int,\ int)
+comment6.params=row\ col
+comment6.target=boolean\ isFull(int,\ int)
+comment7.params=
+comment7.target=int\ numberOfOpenSites()
+comment8.params=
+comment8.target=boolean\ percolates()
+numComments=9
